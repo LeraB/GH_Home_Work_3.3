@@ -1,16 +1,12 @@
 import React from 'react';
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
-import logo from './logo.svg';
+import logo from './img/logo.svg';
 import './App.css';
 import Mycomponent from './Mycomponent'
-import {increase, getCounter} from "./file1";
 
 
-// increase();
-//increase();
 
-//console.log(getCounter());
 
 export default class extends React.Component {
     render() {

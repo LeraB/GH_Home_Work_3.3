@@ -21,7 +21,28 @@
 .App-intro {
   font-size: large;
 }
+#root .carousel .carousel__slider {
+  height: 100vh;
+}
+.carousel__slider-tray .carousel__slide img{
+  width: 100%;
+  position: relative;
+}
+.carousel__back-button{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  padding: 5px 10px;
 
+}
+.carousel__next-button{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  padding: 5px 10px;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
